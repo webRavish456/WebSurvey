@@ -1,0 +1,51 @@
+
+.footer{
+    background-color: white;
+    border:1px solid white;
+    width:100%;
+    height:60px;
+    box-shadow: -1px 4px 20px -6px rgb(132,132,137);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    min-width: 26.5rem;
+    flex:0.1;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.powered{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap:10px ;
+    align-items: center;
+ 
+}
+.brandlogo{
+    width:60px;
+}
+.divider{
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:640px)
+{
+     .divider{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 4px;
+     }
+     .borderright{
+        display: none;
+     }
+}
+

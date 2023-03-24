@@ -1,0 +1,49 @@
+.button{
+
+    background-color: #348886;
+    color:white;
+    outline: none;
+    border: #348886;
+    width:10rem;
+    height:56px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:769px)
+{
+    .button{
+        font-size: 16px;
+        width:9rem;
+        height:48px;
+    }
+}
+@media only screen and (max-width:513px)
+{
+    .button{
+        font-size: 13.5px;
+        width:9rem;
+        height:40px;
+    }
+}
+@media only screen and (max-width:448px)
+{
+    .button{
+        font-size: 12px;
+        width:8rem;
+        height:36px;
+    }
+}
+@media only screen and (max-width:384px)
+{
+    .button{
+        font-size: 11px;
+        width:7rem;
+        height:32px;
+    }
+}
